@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.1.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.1.xsd">
+<aop:aspectj-autoproxy></aop:aspectj-autoproxy>
+<bean id= "product1" class="org.javaiw.model.Product" autowire="byName" >
+<property name="productid" value ="1"/>
+<property name="pname" value ="Iphone 6s"/>
+<property name="brand" value ="Apple"/>
+<property name="price" value ="35241.02"/>
+</bean>
+
+<bean class="org.javaiw.model.LogginAspect"/> 
+
+<bean id= "vendor1" class="org.javaiw.model.Vendor">
+<property name="vemail" value ="raj@email.com"/>
+<property name="name" value ="raj"/>
+</bean>
+
+<bean id= "vendors" class="org.javaiw.model.Vendor" parent="vendor1">
+<property name="vemail" value ="raaa@email.com"/>
+<property name="name" value ="raa"/>
+</bean>
+
+
+
+
+
+
+</beans>
+

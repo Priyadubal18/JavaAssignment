@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/oraclexe/app/oracle/product/11.2.0/server/jdbc/lib/ojdbc6.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/SpringDao"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Spring"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="E:/Consultant/Assignments/SpringLibraries/spring-framework-4.1.4.RELEASE-dist/spring-framework-4.1.4.RELEASE/libs/spring-orm-4.1.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Consultant/Assignments/SpringLibraries/spring-framework-4.1.4.RELEASE-dist/spring-framework-4.1.4.RELEASE/libs/spring-orm-4.1.4.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="E:/Consultant/Assignments/SpringLibraries/spring-framework-4.1.4.RELEASE-dist/spring-framework-4.1.4.RELEASE/libs/spring-oxm-4.1.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Consultant/Assignments/SpringLibraries/spring-framework-4.1.4.RELEASE-dist/spring-framework-4.1.4.RELEASE/libs/spring-oxm-4.1.4.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="E:/Consultant/Assignments/SpringLibraries/spring-framework-4.1.4.RELEASE-dist/spring-framework-4.1.4.RELEASE/libs/spring-tx-4.1.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Consultant/Assignments/SpringLibraries/spring-framework-4.1.4.RELEASE-dist/spring-framework-4.1.4.RELEASE/libs/spring-tx-4.1.4.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="E:/Consultant/Assignments/SpringLibraries/dom4j.jar/dom4j.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Hibernate"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

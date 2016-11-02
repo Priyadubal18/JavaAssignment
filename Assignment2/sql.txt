@@ -1,0 +1,11 @@
+create or replace procedure increament_fee(c_id number, inc_fee number)is
+vfee number(7, 2);
+maxfee number(7, 2);
+vdur number(3);
+begin
+select fee, duration into vfee, vdur from courses where cid=c_id;
+maxfee = vdur*2500;
+if vfee+inc_fee <= maxfee then
+update courses set fee= fee+inc_fee where cid=c_id;
+end if;
+end increment_fee;

@@ -1,0 +1,5 @@
+1, Priya, java core, 676
+2, Rajan, java adv, 546
+3, Alice, oracle, 500
+4, Frank, sql, 450,
+5, Tom, C# program, 850 
